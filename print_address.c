@@ -1,6 +1,5 @@
 #include "main.h"
 /**
-<<<<<<< HEAD
  * print_address - prints address of input in hexa format
  * @l: va_list arguments from _printf
  * @f: pointer to the struct flags that determines
@@ -33,13 +32,6 @@ count += _puts("0x");
 count += _puts(str);
 return (count);
 
-=======
-* print_address - prints address of input in hexa format
-* @l: va_list arguments from _printf
-* @f: pointer to the struct flags that determines
-* if a flag is passed to _printf
-* Return: number of char printed
-*/
 int print_address(va_list l, flags_t *f)
 {
 char *str;
@@ -52,5 +44,4 @@ str = convert(p, 16, 1);
 count += _puts("0x");
 count += _puts(str);
 return (count);
->>>>>>> 1cd428afdcb0c3b5c5b8e0e9cb3f00ce445e12da
 }
